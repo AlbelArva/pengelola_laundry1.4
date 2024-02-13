@@ -117,50 +117,6 @@ $penghasilan_minggu = mysqli_fetch_assoc($query7);
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-            <div class="card card-primary">
-                <div class="card-body skew-shadow">
-                    <h1><?= 'Rp ' . number_format($penghasilan_tahun['penghasilan_tahun']); ?></h1>
-                    <h5 class="op-8">Penghasilan Tahun <?= date('Y'); ?></h5>
-                    <div class="pull-right">
-                        <h3 class="fw-bold op-8">
-                            <hr>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card card-dark bg-primary-gradient">
-                <div class="card-body bubble-shadow">
-                    <h1><?= 'Rp ' . number_format($penghasilan_bulan['penghasilan_bulan']); ?></h1>
-                    <h5 class="op-8">Penghasilan Bulan <?= strftime('%B'); ?></h5>
-                    <div class="pull-right">
-                        <h3 class="fw-bold op-8">
-                            <hr>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card card-dark bg-primary">
-                <div class="card-body curves-shadow">
-                    <h1><?= 'Rp ' . number_format($penghasilan_minggu['penghasilan_minggu']); ?></h1>
-                    <h5 class="op-8">Penghasilan Minggu Ini</h5>
-                    <div class="pull-right">
-                        <h3 class="fw-bold op-8">
-                            <hr>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 </div>
 </div>
 <?php

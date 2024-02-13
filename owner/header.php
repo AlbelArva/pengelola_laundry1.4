@@ -76,7 +76,7 @@
                                 <div class="dropdown-user-scroll scrollbar-outer">
                                     <li>
                                         <div class="user-box">
-                                            <div class="avatar-lg"><img src="../assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+                                            <div class="avatar-lg"><img src="../assets/img/dummy.jpg" alt="image profile" class="avatar-img rounded"></div>
                                             <div class="u-text">
                                                 <h4><?= $_SESSION['username']; ?></h4>
                                                 <p class="text-muted"><?php if ($_SESSION['role'] == 'admin') {

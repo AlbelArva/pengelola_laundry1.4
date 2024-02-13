@@ -66,7 +66,6 @@ require 'header.php'
                                     <option value="kiloan">Kiloan</option>
                                     <option value="selimut">Selimut</option>
                                     <option value="bedcover">Bedcover</option>
-                                    <option value="kiloan">Kiloan</option>
                                     <option value="kaos">Kaos</option>
                                     <option value="lain">Lain</option>
                                 </select>
