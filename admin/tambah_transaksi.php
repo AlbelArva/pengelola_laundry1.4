@@ -117,7 +117,7 @@ require 'header.php';
                                 <label for="largeInput">Jumlah</label>
                                 <input type="text" name="qty" class="form-control form-control" id="defaultInput">
                             </div>
-                            <div class="form-group">
+                            <!--<div class="form-group">
                                 <label for="largeInput">Biaya Tambahan</label>
                                 <input type="text" name="biaya_tambahan" class="form-control form-control" id="defaultInput" value="0">
                             </div>
@@ -128,7 +128,7 @@ require 'header.php';
                             <div class="form-group">
                                 <label for="largeInput">Pajak</label>
                                 <input type="text" name="pajak" class="form-control form-control" id="defaultInput" value="0">
-                            </div>
+                            </div> -->
                             <div class="card-action">
                                 <button type="submit" name="btn-simpan" class="btn btn-success">Submit</button>
                                 <!-- <button class="btn btn-danger">Cancel</button> -->
